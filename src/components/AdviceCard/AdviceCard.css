@@ -1,0 +1,48 @@
+.advice-card {
+    background-color: #313a49;
+    padding: 40px 20px;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .advice-id {
+    color: #53ffaa;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  
+  .advice-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .divider hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .divider-icon {
+    padding: 0 8px;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.4);
+  }

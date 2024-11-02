@@ -1,0 +1,24 @@
+.generate-button {
+    background-color: #53ffaa;
+    border: none;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: -32px;
+    transition: transform 0.2s;
+  }
+  
+  .generate-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .generate-button svg {
+    fill: none;
+    stroke: #313a49;
+    stroke-width: 2;
+  }
